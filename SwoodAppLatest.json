@@ -1,0 +1,17 @@
+{
+	"SwoodReport": {
+		"Version": "2.8.0",
+		"ReleaseDate": "18/10/23",
+		"ReleaseAlertMessage": "This is a SwoodReport alert"
+	},
+	"SwoodEditor": {
+		"Version": "1.2.3",
+		"ReleaseDate": "18/10/23",
+		"ReleaseAlertMessage": "This is a SwoodEditor alert"
+	},
+	"SwoodUtils": {
+		"Version": "0.1.4.0",
+		"ReleaseDate": "9/10/24",
+		"ReleaseAlertMessage": ""
+	}
+}
