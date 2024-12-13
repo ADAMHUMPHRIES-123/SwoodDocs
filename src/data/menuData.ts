@@ -1,0 +1,91 @@
+export const menuItems: IMenuItem[] = [
+	{ to: '/home', title: 'Home' },
+	{
+		to: '/GettingStated',
+		title: 'Getting started',
+		children: [{ to: '/SwoodReportQuickStart', title: 'SwoodReport QuickStart' }],
+	},
+	{
+		to: '/Swood',
+		title: 'Swood',
+		children: [
+			{ to: '/SwoodPerformance', title: 'How to enhance Swood performance', postDate: '18/09/2024' },
+			{ to: '/SwoodRX', title: 'How to create a Swood RX', postDate: '23/09/2024' },
+			{ to: '/SwoodCompatibility', title: 'Swood compatibility' },
+			{ to: '/ScriptParameters', title: 'List of Swood script parameters', updateDate: '23/09/2024' },
+			{ to: '/SwoodDataDirectory', title: 'Understanding the Swood data directory', updateDate: '22/10/2024' },
+			{ to: '/SwoodTab', title: 'How to reset Swood tabs' },
+			{ to: '/FileName', title: 'Issues with long file names' },
+		],
+	},
+	{
+		to: '/SwoodReport',
+		title: 'SwoodReport',
+		children: [
+			// { to: '/SwoodReportQuickStart', title: 'SwoodReport QuickStart' },
+			{ to: '/SwoodLicensing', title: 'SwoodReport licensing' },
+			{ to: '/ReportCompatibility', title: 'SwoodReport compatibility' },
+			{ to: '/SwoodReportReleaseNotes', title: 'SwoodReport release notes' },
+			{ to: '/SwoodReportMatrix', title: 'SwoodReport matrix' },
+			{ to: '/SwoodReportPro', title: 'Explore the benefits of SwoodReport Pro', pro: true, postDate: '24/10/2024' },
+			{ to: '/SwoodReportProperties', title: 'List of SwoodReport properties', updateDate: '18/09/2024' },
+			{ to: '/MaterialExtendedProperties', title: 'List of Swood material extended properties', postDate: '18/09/2024' },
+			{ to: '/PanelsAndStocks', title: 'Difference between panels and stocks List', postDate: '18/09/2024' },
+			{ to: '/CustomProperties', title: 'How to display custom properties in the report', pro: false, postDate: '19/09/2024' },
+			{ to: '/ConcatenateProperties', title: 'How to concatenate/evaluate properties', pro: true, postDate: '18/09/2024' },
+			{ to: '/ProjectName', title: 'How to change the report project name', postDate: '23/09/2024' },
+			{ to: '/ProjectQuantity', title: 'How to change the report project quantity', postDate: '23/09/2024' },
+			{ to: '/SimpleReport', title: 'How to generate a simple report', postDate: '24/09/2024' },
+			{ to: '/DisplayComments', title: 'How to display comments in the report', postDate: '22/10/2024' },
+			{ to: '/EdgebandImage', title: 'Methods of displaying edgebands on images', postDate: '22/10/2024' },
+			{ to: '/MergeReports', title: 'How to merge Nest and Design reports', pro: true, beta: true, postDate: '05/12/2024' },
+			{
+				title: 'Frames',
+				children: [
+					{ to: '/Frames', title: 'How to define a component as a frame', pro: true },
+					{ to: '/FrameType', title: 'How to group frames by type', pro: true, postDate: '18/09/2024' },
+				],
+			},
+			{ to: '/CuttingPattern', title: 'How to generate a cutting pattern', postDate: '18/09/2024' },
+			{ to: '/NestedCuttingPattern', title: 'How to define panels as nested or beam sawed (cutting pattern)', postDate: '18/09/2024' },
+			{
+				title: 'Hardware',
+				children: [
+					{ to: '/Hardware', title: 'How to define a component as hardware' },
+					{ to: '/HardwareLength', title: 'How to display the length of a hardware component' },
+					{ to: '/HardwareType', title: 'How to group hardware by type', pro: true },
+				],
+			},
+			{ to: '/BeamSaw', title: 'How to define a panel as beam saw', pro: true },
+			{ to: '/SaveToPDF', title: 'How to automatically save drawings to PDF', postDate: '18/09/2024' },
+			{ to: '/Exclude', title: 'How to exclude a component from the report' },
+			{ to: '/MaterialType', title: 'How to group materials by type', pro: true },
+		],
+	},
+	{
+		to: '/SwoodEditor',
+		title: 'SwoodEditor',
+		children: [
+			{ to: '/SwoodLicensing', title: 'SwoodEditor licensing' },
+			{ to: '/SwoodEditorReleaseNotes', title: 'SwoodEditor release notes' },
+			{ to: '/CreatingDATBackups', title: 'How to backup report settings' },
+		],
+	},
+	{ to: '/SwoodUtils', title: 'SwoodUtils', pro: true, beta: true, postDate: '18/09/2024', children: [{ to: '/SwoodUtilsReleaseNotes', title: 'SwoodUtils release notes' }] },
+	// {
+	// 	title: 'PostProcessor',
+	// 	children: [
+	// 		{
+	// 			title: 'BIESSE' ,
+	// 			children: [
+	// 				{ to: '/AddPostProcessor', title: 'BIESSE post 1' },
+	// 				{ to: '/AddPostProcessor', title: 'BIESSE post 2' },
+	// 			],
+	// 		},
+	// 		{ to: '/AddPostProcessor', title: 'How to add a Post-Processor' },
+	// 		{ to: '/AddPostProcessor', title: 'How to add a Post-Processor' },
+	// 		{ to: '/AddPostProcessor', title: 'How to add a Post-Processor' },
+	// 		{ to: '/AddPostProcessor', title: 'How to add a Post-Processor' },
+	// 	],
+	// },
+]

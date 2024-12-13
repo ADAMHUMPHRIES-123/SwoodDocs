@@ -1,0 +1,50 @@
+{
+	"name": "swooddocs",
+	"homepage": "https://ADAMHUMPHRIES-123.github.io/SwoodDocs/",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d dist",
+		"dev": "vite",
+		"build": "tsc -b && vite build",
+		"lint": "eslint .",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@babylonjs/core": "^7.37.1",
+		"@babylonjs/loaders": "^7.37.1",
+		"@babylonjs/materials": "^7.37.1",
+		"@emotion/react": "^11.13.3",
+		"@emotion/styled": "^11.13.0",
+		"@fontsource/roboto": "^5.1.0",
+		"@mui/icons-material": "^6.1.0",
+		"@mui/material": "^6.1.0",
+		"@mui/styles": "^6.1.1",
+		"@types/babylonjs": "^2.3.31",
+		"@xyflow/react": "^12.3.2",
+		"date-fns": "^4.1.0",
+		"firebase": "^10.13.2",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-router-dom": "^6.26.2",
+		"reaflow": "^5.3.1",
+		"uuid": "^10.0.0"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.9.0",
+		"@types/react": "^18.3.3",
+		"@types/react-dom": "^18.3.0",
+		"@types/uuid": "^10.0.0",
+		"@vitejs/plugin-react": "^4.3.1",
+		"eslint": "^9.9.0",
+		"eslint-plugin-react-hooks": "^5.1.0-rc.0",
+		"eslint-plugin-react-refresh": "^0.4.9",
+		"gh-pages": "^6.1.1",
+		"globals": "^15.9.0",
+		"typescript": "^5.5.3",
+		"typescript-eslint": "^8.0.1",
+		"vite": "^5.4.1"
+	}
+}

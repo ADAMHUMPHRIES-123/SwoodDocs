@@ -1,0 +1,18 @@
+:root {
+	margin: 100px;
+}
+
+a {
+	font-weight: 500;
+	/* color: #646cff; */
+	color: rgb(25, 118, 210);
+	text-decoration: inherit;
+}
+
+a:hover {
+	color: rgb(21, 101, 192);
+}
+
+.react-flow__attribution {
+	display: none;
+}
